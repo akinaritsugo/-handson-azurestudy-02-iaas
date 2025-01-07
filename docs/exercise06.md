@@ -64,16 +64,16 @@
 
         ![](images/ex06-0301-bastion.png)
 
-    1. 「タグ」ページ
-
-        特に設定なし
-    
     1. 「詳細設定」ページ
 
         * コピー/貼り付け： `有効`
         * ネイティブクライアントサポート： `有効`
 
         ![](images/ex06-0302-bastion.png)
+
+    1. 「タグ」ページ
+
+        特に設定なし
 
     1. 「確認および作成」ページ
 
@@ -112,7 +112,6 @@
 1. ログイン、初期化
 
         az login
-        az account set --subscription "<SUBSCRIPTION_ID>"
 
 1. RDPログイン
 

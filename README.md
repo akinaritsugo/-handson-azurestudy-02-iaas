@@ -24,9 +24,19 @@
 
 * ネットワーク知識
 
-## ハンズオン資料
+## ハンズオン
 
-<!-- 1. [環境準備](/docs/handson-prepare.md) -->
-1. [ハンズオン](/docs/README.md)
+⏳ 推定時間: 90分
+
+🗒️ 目次:
+
+1. [ネットワーク作成](./docs/exercise01.md)
+1. [ネットワークセキュリティグループ作成](./docs/exercise02.md)
+1. [仮想マシン作成/接続](./docs/exercise03.md)
+1. [ARMテンプレート利用](./docs/exercise04.md)
+1. [VNet Peering 作成](./docs/exercise05.md)
+1. [Bastion利用](./docs/exercise06.md)
+1. [環境削除](./docs/exercise99.md)
+
 
 

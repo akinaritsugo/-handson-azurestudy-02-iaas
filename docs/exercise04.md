@@ -37,10 +37,17 @@
 
         例） `10.0.` → `10.1.` 
 
-        * `properties.addressSpace.addressPrefixes`
-        * `properties.subnets.properties.addressPrefix`
-        * `properties.ipConfigurations.properties.privateIPAddress`
-        * `properties.addressPrefix`
+        * `resources`
+            * `"type": "Microsoft.Network/virtualNetworks"`
+
+                `properties.addressPrefixes`　→ 10.1.0.0/16 に変更
+                `properties.subnets.properties.addressPrefixes`　→ 10.1.0.0/24 に変更
+            * `"type": "Microsoft.Network/networkInterfaces"`
+
+                `properties.ipConfigurations.properties.privateIPAddress`　→ 10.1.0.4 に変更
+            * `"type": "Microsoft.Network/virtualNetworks/subnets"`
+
+                `properties.addressPrefix`　→ 10.1.0.0/24 に変更
 
     * OSディスクID削除 （ `osDisk.managedDisk.id` ）
     * ゲストプロビジョン設定削除 （ `osProfile.requireGuestProvisionSignal` ）
